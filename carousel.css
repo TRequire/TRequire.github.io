@@ -95,5 +95,5 @@ body {
 }
 
 $('.carousel').carousel({
-  interval: 6000
+  interval: 30000
 })
