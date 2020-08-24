@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Author Workshop</title>
+    <title>Knowledge Test</title>
 
     <!-- Bootstrap core CSS -->
    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="knowtest.css" rel="stylesheet">
-  </head>
+    <meta name="viewport" content="width=device-width"/>
+        <script src="https://unpkg.com/jquery"></script>
+        <script src="https://surveyjs.azureedge.net/1.7.27/survey.jquery.js"></script>
+        <link href="https://surveyjs.azureedge.net/1.7.27/modern.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="knowtest.css">
 
-  <body class="text-center">
+<!--   <body class="text-center">
 
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
@@ -33,40 +37,20 @@
           </nav>
         </div>
       </header>
-   </div>
+   </div> -->
 
-      <main role="main" class="inner cover">
-        <div id="quiz">
-            <h1 id="quiz-name"></h1>
-            <button id="submit-button">Submit Answers</button>
-            <button id="next-question-button">Next Question</button>
-            <button id="prev-question-button">Previous</button>
-
-            <div id="quiz-results">
-
-              <p id="quiz-results-message"></p>
-              <p id="quiz-results-score"></p>
-              <button id="quiz-retry-button">Retry</button>
-
-            </div>
-          </div>
-      </main>
-
-      <footer class="mastfoot mt-auto">
+<body>
+    <div class="cover-container ">
+      <header class="masthead mb-auto">
         <div class="inner">
-          <p>knowledge Test</p>
-        </div>
-      </footer>
-    </div>
 
+        <div id="surveyElement" style="display:inline-block;width:100%;"></div>
+        <div id="surveyResult"></div>
+ </div>
+      </header>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="knowTest.js"></script>
-  </body>
+</div>
+        <script type="text/javascript" src="knowTest.js"></script>
+<link rel="stylesheet" href="knowtest.css">
+    </body>
 </html>
