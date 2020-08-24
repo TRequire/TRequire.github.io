@@ -283,10 +283,10 @@ body {
 }
 
 html, body {
-  background: #2E706C;
+  background: #9a9d9d;
   text-align: center;
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: auto;
   margin: 5rem;
   bottom: 2rem;
   right: 2rem;
@@ -320,7 +320,7 @@ body {
   float: left;
   margin: 8px 0px 0px 8px;
   padding: 4px 8px;
-  background: #9ACFCC;
+  background: #c5c5c5;
   color: #00403C;
   font-size: 14px;
   cursor: pointer;
@@ -334,7 +334,7 @@ body {
 
 #quiz button:disabled {
   opacity: 0.5;
-  background: #9ACFCC;
+  background: #e6e6e6;
   color: #00403C;
   cursor: default;
 }
@@ -383,8 +383,8 @@ body {
   top: 44px;
   left: 0px;
   background: #FAFAFA;
-  width: 100%;
-  height: calc(100% - 44px);
+  width: auto;
+  height: auto;
 }
 
 #quiz-results-message {
