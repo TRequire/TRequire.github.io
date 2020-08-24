@@ -93,3 +93,7 @@ body {
 .myMargin {
   margin-bottom: 40px;
 }
+
+$('.carousel').carousel({
+  interval: 6000
+})
