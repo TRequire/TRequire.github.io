@@ -15,7 +15,7 @@ var all_questions = [{
   question_string: "What is not included in our 3 technical Requirment )?",
   choices: {
     correct: "Contract Review",
-    wrong: ["EM", "Standard specification", "Standard drawing", "Contract Review"]
+    wrong: [ "Standard specification", "Standard drawing", "Contract Review"]
   }
 }, {
   question_string: "How to define a new term?",
