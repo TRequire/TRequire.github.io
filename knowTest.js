@@ -134,12 +134,11 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "magnacarta",
-                    title: "What is the Magna Carta?",
-                    choicesOrder: "random",
+                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
                     choices: [
-                        "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
+                        "C1", "C2", "C3", "C4"
                     ],
-                    correctAnswer: "The foundation of the British parliamentary system"
+                    correctAnswer: "C2"
                 }
             ]
         }
