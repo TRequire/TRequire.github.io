@@ -16,7 +16,7 @@ var json = {
             questions: [
                 {
                     type: "html",
-                    html: "You are about to take SpecFormat knowledge test. <br/>You 10 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
+                    html: "You are about to take SpecFormat knowledge test. <br/>You have 10 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
                 }
             ]
         }, {
