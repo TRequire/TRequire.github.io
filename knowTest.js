@@ -51,7 +51,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Technical",
-                    title: "Which rule the following requirement is viloting (The Identity of the Customer shall be confirmed)?",
+                    title: "Which rule the following requirement is violated (The Identity of the Customer shall be confirmed)?",
                     choices: [
                         "R2 Use an Active Voice", "R4 Use Defined Terms", "R14 Use Correct Spelling", "R24 Do Not Use Generalizations"
                     ],
