@@ -147,6 +147,22 @@ var json = {
         }
     ],
     completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
+    "<p>Technical requirements define what is required in the design, they do not define how to create the design?</p>"
+    "<p>C2 Appropriate</p>"
 };
 
 window.survey = new Survey.Model(json);
