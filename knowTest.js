@@ -77,9 +77,21 @@ var json = {
                     name: "Technical",
                     title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
                     choices: [
+                        "R1", "C2", "C3", "C4"
+                    ],
+                    correctAnswer: "R1"
+                }
+            ]
+        }, {
+            questions: [
+                {
+                    type: "radiogroup",
+                    name: "Technical",
+                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
+                    choices: [
                         "C1", "C2", "C3", "C4"
                     ],
-                    correctAnswer: "C2"
+                    correctAnswer: "C1"
                 }
             ]
         }, {
@@ -103,19 +115,7 @@ var json = {
                     choices: [
                         "C1", "C2", "C3", "C4"
                     ],
-                    correctAnswer: "C2"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "C3", "C4"
-                    ],
-                    correctAnswer: "C2"
+                    correctAnswer: "C3"
                 }
             ]
         }, {
@@ -128,7 +128,7 @@ var json = {
                     choices: [
                         "C1", "C2", "C3", "C4"
                     ],
-                    correctAnswer: "C2"
+                    correctAnswer: "C4"
                 }
             ]
         }, {
@@ -139,9 +139,9 @@ var json = {
                     name: "magnacarta",
                     title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
                     choices: [
-                        "C1", "C2", "C3", "C4"
+                        "C1", "C2", "R3", "C4"
                     ],
-                    correctAnswer: "C2"
+                    correctAnswer: "R3"
                 }
             ]
         }
