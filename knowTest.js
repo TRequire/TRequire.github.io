@@ -1,164 +1,307 @@
+var quiztitle = "Technical Requirement Writing Knowledge Test";
 
-Survey
-    .StylesManager
-    .applyTheme("modern");
 
-var json = {
-    title: "Technical Requirement Format Knowledge Test",
-    showProgressBar: "bottom",
-    
-   
-    
-    firstPageIsStarted: true,
-    startSurveyText: "Start Quiz",
-    pages: [
-        {
-            questions: [
-                {
-                    type: "html",
-                    html: "You are about to take SpecFormat knowledge test. <br/>You have 10 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "Technical requirements define what is required in the design, they do not define how to create the design?",
-                    choices: [
-                        "C1 Necessary", "C2 Appropriate", "C3 Unambiguous", "C4 Complete"
+ var quiz = [
+    {
+        "question" : "Q1: Technical requirements define what is required in the design, they do not define how to create the design?",
+        "image" : "",
+        "choices" : [
+                                "C1 Necessary", "C2 Appropriate", "C3 Unambiguous", "C4 Complete"
                     ],
-                    correctAnswer: "C2 Appropriate"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "A requirement is necessary (needed in the set of requirements) if",
-                    choices: [
+        "correct" : "C2 Appropriate",
+        "explanation" : "Placed in the correct requirement set. Additionally, technical requirements define what is required in the design. They do not define how to create the design as is done with procedures.",
+    },
+
+    {
+        "question" : "Q2: A requirement is necessary (needed in the set of requirements) if",
+        "image" : "",
+        "choices" : [
                         "A – the requirement can be removed and the remaining set will still result in the entity needs being satisfied.",
                         "B – the intent of the requirement will be met by the implementation of other requirements", 
                         "C – the author cannot communicate the reason for the requirement",
                         "D – a requirement must be able to be traced to a source which could be one or more entity need(s) or higher-level allocated requirement"
                     ],
-                    correctAnswer: "D – a requirement must be able to be traced to a source which could be one or more entity need(s) or higher-level allocated requiremen"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "Which rule the following requirement is violated (The Identity of the Customer shall be confirmed)?",
-                    choices: [
+        "correct" : "D – a requirement must be able to be traced to a source which could be one or more entity need(s) or higher-level allocated requirement",
+        "explanation" : "If requirement can be removed, met by implementation of other requirements or cannot be communicated then this requirement is not necessary",
+    },
+    {
+        "question" : "Q3: Which rule in the following requirement is violated (The Identity of the Customer shall be confirmed)?",
+        "image" : "",
+        "choices" : [
                         "R2 Use an Active Voice", "R4 Use Defined Terms", "R14 Use Correct Spelling", "R24 Do Not Use Generalizations"
                     ],
-                    correctAnswer: "R2 Use an Active Voice"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
-                    choices: [
+        "correct" : "R2 Use an Active Voice",
+        "explanation" : "When an action is required, start with the verb. ...",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "R34 Use (EACH)"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "R1", "C2", "C3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "R1"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "C3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "C1"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "C3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "C2"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "C3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "C3"
-                }
-            ]
-        }, {
-            
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Technical",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "C3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "C4"
-                }
-            ]
-        }, {
-            maxTimeToFinish: 15,
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "magnacarta",
-                    title: "What requirement is violated (Hollow Brick: ASTM C 652, Grade SW, Class H40V (void areas between 25 and 40 percent of gross cross-sectional area, Type HBX.)?",
-                    choices: [
-                        "C1", "C2", "R3", "C4"
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-                    correctAnswer: "R3"
-                }
-            ]
-        }
-    ],
-    completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4> <p>Technical requirements define what is required in the design, they do not define how to create the design?</p> <p>C2 Appropriate</p>"
-   
-   
-};
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                    ],
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                    ],
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                    ],
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
+    {
+        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "image" : "",
+        "choices" : [
+                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                    ],
+        "correct" : "R34 Use (EACH)",
+        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+    },
 
-window.survey = new Survey.Model(json);
+  
 
-survey
-    .onComplete
-    .add(function (result) {
-        document
-            .querySelector('#surveyResult')
-            // .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
-    });
 
-$("#surveyElement").Survey({model: survey});
+
+];
+
+
+ var currentquestion = 0,
+ score = 0,
+ submt = true,
+ picked;
+
+ $(document).ready(function(){
+   $("#submitbutton").hide();
+
+ function htmlEncode(value) {
+     return $(document.createElement('div')).text(value).html();
+ }
+
+
+ function addChoices(choices) {
+     if (typeof choices !== "undefined" && $.type(choices) == "array") {
+         $('#choice-block').empty();
+         for (var i = 0; i < choices.length; i++) {
+             $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
+         }
+     }
+ }
+
+ function nextQuestion() {
+     submt = true;
+   //  alert("nQ");
+     $('#explanation').empty();
+     $('#question').text(quiz[currentquestion]['question']);
+     $('#pager').text('Question ' + Number(currentquestion + 1) + ' of ' + quiz.length);
+     if (quiz[currentquestion].hasOwnProperty('image') && quiz[currentquestion]['image'] != "") {
+         if ($('#question-image').length == 0) {
+             $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question'])).insertAfter('#question');
+         } else {
+             $('#question-image').attr('src', quiz[currentquestion]['image']).attr('alt', htmlEncode(quiz[currentquestion]['question']));
+         }
+     } else {
+         $('#question-image').remove();
+     }
+     addChoices(quiz[currentquestion]['choices']);
+     setupButtons();
+
+
+ }
+
+
+ function processQuestion(choice) {
+    // alert(choice);
+     currentquestion++;
+    //  alert(currentquestion);
+     $("#submitbutton").hide();
+
+         if (currentquestion == quiz.length) {
+             endQuiz();
+         } else {
+
+             nextQuestion();
+         }
+
+ }
+
+
+ function setupButtons() {
+     $('.choice').on('mouseover', function () {
+         $(this).css({
+             'background-color': '#e1e1e1'
+         });
+     });
+     $('.choice').on('mouseout', function () {
+         $(this).css({
+             'background-color': '#fff'
+         });
+     })
+     $('.choice').on('click', function () {
+        // alert("");
+         choice = $(this).attr('data-index');
+         $('.choice').removeAttr('style').off('mouseout mouseover');
+         $(this).css({
+             'border-color': '#222',
+             'font-weight': 700,
+             'background-color': '#c1c1c1'
+         });
+         if (quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']) {
+         $('.choice').eq(choice).css({
+             'background-color': '#50D943'
+         });
+         $('#explanation').html('<strong>Correct!</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+         score++;
+     } else {
+         $('.choice').eq(choice).css({
+             'background-color': '#D92623'
+         });
+         $('#explanation').html('<strong>Incorrect.</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
+     }
+            $("#submitbutton").show();
+         if (submt) {
+            // alert("submit");
+             submt = false;
+             $('#submitbutton').css({
+                 'color': '#000'
+
+             });
+             $("#submitbutton").click(function(){
+              // alert("click");
+                  $('.choice').off('click');
+                 $(this).off('click');
+                 processQuestion(choice);
+             });
+         }
+     })
+ }
+
+
+ function endQuiz() {
+     $('#explanation').empty();
+     $('#question').empty();
+     $('#choice-block').empty();
+     $('#submitbutton').remove();
+     $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
+     $(document.createElement('h2')).css({
+         'text-align': 'center',
+         'font-size': '4em'
+     }).text(Math.round(score / quiz.length * 100) + '%').insertAfter('#question');
+ }
+
+
+ function init() {
+     //add title
+     if (typeof quiztitle !== "undefined" && $.type(quiztitle) === "string") {
+         $(document.createElement('h1')).text(quiztitle).appendTo('#frame');
+     } else {
+         $(document.createElement('h1')).text("Quiz").appendTo('#frame');
+     }
+
+     //add pager and questions
+     if (typeof quiz !== "undefined" && $.type(quiz) === "array") {
+         //add pager
+         $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
+         //add first question
+         $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
+         //add image if present
+         if (quiz[0].hasOwnProperty('image') && quiz[0]['image'] != "") {
+             $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[0]['image']).attr('alt', htmlEncode(quiz[0]['question'])).appendTo('#frame');
+         }
+         $(document.createElement('p')).addClass('explanation').attr('id', 'explanation').html('&nbsp;').appendTo('#frame');
+
+         //questions holder
+         $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
+
+         //add choices
+         addChoices(quiz[0]['choices']);
+
+         //add submit button
+         $(document.createElement('div')).addClass('choice-box').attr('id', 'submitbutton').text('Next Question').css({
+             'font-weight': 700,
+             'color': '#222',
+             'padding': '30px 0',
+          }).appendTo('#frame');
+
+
+       $("#submitbutton").hide();
+         setupButtons();
+     }
+ }
+
+ init();
+});
