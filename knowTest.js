@@ -1,6 +1,7 @@
 var quiztitle = "Technical Requirement Writing Knowledge Test";
 
 
+
  var quiz = [
     {
         "question" : "Q1: Technical requirements define what is required in the design, they do not define how to create the design?",
@@ -256,6 +257,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
      $('#question').empty();
      $('#choice-block').empty();
      $('#submitbutton').remove();
+     $('.container').remove();
      $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
      $(document.createElement('h2')).css({
          'text-align': 'center',
@@ -267,7 +269,8 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
  function init() {
      //add title
      if (typeof quiztitle !== "undefined" && $.type(quiztitle) === "string") {
-         $(document.createElement('h1')).text(quiztitle).appendTo('#frame');
+         $(document.createElement('h1')).text(quiztitle).appendTo('#frameH');
+         
      } else {
          $(document.createElement('h1')).text("Quiz").appendTo('#frame');
      }
