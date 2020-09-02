@@ -98,4 +98,13 @@
       border-radius: 5px;
       background-color: #fff;
   }
+ .btn-warning {
+    
+    color: white;
+    background-color: #ff9800bf;
+    width: 120px;
+  }
+  a {
+    color: white;
+  }
   </style>
