@@ -47,9 +47,9 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "question" : "Q5: You should Avoid Words that words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
-                        "requirements should be quantified precisely.", "they are confusing", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
+                        "requirements should be quantified precisely.", "they always can be used", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
                     ],
-        "correct" : "Their presence in a requirement usually indicates that multiple requirements should be written",
+        "correct" : "their presence in a requirement usually indicates that multiple requirements should be written",
         "explanation" : "their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
