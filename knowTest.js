@@ -89,13 +89,16 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q10: What is the issue with the following requirement:",
+        "question" : "References in the new format must following the following hierarchy?",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
+                        "1) International codes, 2) KSA Codes 3) Regional Code (e.g. MARAFIQ, SEC)", 
+                        "1) Regional Code (e.g. MARAFIQ, SEC), 2) KSA Codes, 3) Adopted standards in alphabetical order according to the publisher abbreviation.",
+                        "1) KSA Code 2) International Codes and Standards, 3) Regional Codes"
                     ],
-        "correct" : "R10 Avoid Open-Ended Clauses",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
+        "explanation" : "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
     },
     {
         "question" : "Q11: In the new template, the submittals are divided to the following:",
