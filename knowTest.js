@@ -47,10 +47,10 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "question" : "Q5: You should Avoid Words that words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
-                        "Requirements should be quantified precisely.", "they are confusing", "Their presence in a requirement usually indicates that multiple requirements should be written", "Use (EACH) only"
+                        "requirements should be quantified precisely.", "they are confusing", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
                     ],
         "correct" : "Their presence in a requirement usually indicates that multiple requirements should be written",
-        "explanation" : "Their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
+        "explanation" : "their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
         "question" : "Q6: The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following CHARACTERISTICS OF REQUIREMENT",
@@ -71,16 +71,16 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous. The language used within the set of requirements is consistent",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q8:Adjectives modify nouns such as the subject of a requirement. Avoid adjectives such as “ancillary,” “relevant,” “routine,” ”common,” “generic,” and “customary because they are ",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "Descriptive Adjectives", "Quantitative Adjectives", "Proper Adjectives", "Vague Adjectives"
                     ],
         "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "explanation" : "Adjectives can lead to ambiguous, unverifiable requirements that do not reflect accurately the stakeholder expectations. See RULE 8",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q9: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
         "image" : "",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
