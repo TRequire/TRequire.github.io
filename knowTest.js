@@ -44,16 +44,16 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q5: You should Avoid Words that words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "Requirements should be quantified precisely.", "they are confusing", "Their presence in a requirement usually indicates that multiple requirements should be written", "Use (EACH) only"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "Their presence in a requirement usually indicates that multiple requirements should be written",
+        "explanation" : "Their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q6: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
         "image" : "",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
