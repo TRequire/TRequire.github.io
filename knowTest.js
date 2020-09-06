@@ -76,7 +76,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "choices" : [
                         "Descriptive Adjectives", "Quantitative Adjectives", "Proper Adjectives", "Vague Adjectives"
                     ],
-        "correct" : "R34 Use (EACH)",
+        "correct" : "Vague Adjectives",
         "explanation" : "Adjectives can lead to ambiguous, unverifiable requirements that do not reflect accurately the stakeholder expectations. See RULE 8",
     },
     {
@@ -106,7 +106,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "Quality, Product, Datasheet, Report, Records", 
                         "Action, Managerial, Drawings, Informational, Quality"
                     ],
-        "correct" : "Action, Managerial, Drawings, Informational, Quality",
+        "correct" : "Action, Informational, Closeout, and Maintenance Material",
         "explanation" : "[ Action, Informational, Closeout, and Maintenance Material See attached template Section 1.5, 1.6, 1.7, 1.8]",
     },
     {
