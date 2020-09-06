@@ -139,6 +139,59 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "correct" : "C3 ambiguous",
         "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
     },
+    {
+        "question" : "[The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+        "image" : "",
+        "choices" : [
+                        "C3 - Unambiguous. Which clause?  Each requirement in a specification amounts to a legal clause in a construction contract.",
+                        "R1 - Use the Definitive Term (the).  A cable sheet does not define which cable sheet.",
+                        "R2 - Use an active voice. The word “are to be” is passive.",
+                        "R32 - Express Once Only.  We don’t need to say that the material must meet requirements when such is stated in the construction contract, Division 01, and the specification sheets."
+                    ],
+        "correct" : "C3 ambiguous",
+        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
+    },
+
+ {
+        "question" : "[Example: The impact of the higher ambient temperature on ampacity will be factored in cable selection and application during system design [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+        "image" : "",
+        "choices" : [
+                        "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
+                        "C3 - Unambiguous: This could be telling the contractor to design the cable or verify design.",
+                        "C7 - Verifiable: Cannot prove that the impact by measurement or objective observation.",
+                        "R2 - Use an active voice. “Will be” does not direct the contractor to do something."
+                    ],
+        "correct" : "C3 ambiguous",
+        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
+    },
+
+
+
+
+{
+        "question" : "[Example: The duct for underground cables shall not be located in the main (busy lane) of the street or road and should be at least 1.5 m from the median bay.], Which characteristic or rule does this NOT violate?",
+        "image" : "",
+        "choices" : [
+                        "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
+                        "C3 - Unambiguous: The word “should” is not a requirement.",
+                        "C12 - Feasible.  It is not possible to locate an underground cable as stated.",
+                        "R11 - Do Not Add Unnecessary Words. The word “shall” is unnecessary in the context of requirements."
+                    ],
+        "correct" : "C3 - Unambiguous: The word “should” is not a requirement.",
+        "explanation" : "C3 - Unambiguous: The word “should” is not a requirement.",
+    },
+{
+        "question" : "[Example: The insulation tubing shall be generally suitable for indoor and outdoor installation, be ultra-violet and chemical resistant and with or without adhesive coating.  It shall be capable of being stored without damage at temperatures not exceeding 50°C], Which characteristic or rule does this NOT violate?",
+        "image" : "",
+        "choices" : [
+                        "C3 - Unambiguous: The words “generally suitable” are not definitive.",
+                        "C5 – Singular. This paragraph identifies several requirements.",
+                        "R35 - Use Ranges for Values.  The value 50 is not a range.",
+                        "R40 - Avoid Abbreviations. The degree symbol should be spelled out as in “degrees”"
+                    ],
+        "correct" : "C5 – Singular. This paragraph identifies several requirements.",
+        "explanation" : "C5 – Singular. This paragraph identifies several requirements.",
+    },
 
   
 
