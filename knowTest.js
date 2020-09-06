@@ -120,7 +120,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
     },
     {
         "question" : "Q13: What is the issue with the following requirement:",
-        "image" : "theymistake.jpg",
+        "image" : "theymistake.JPG",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R13 Use Correct Grammar", "R19 Use a Single Sentence", "R21 Use Bracket to Combine Conditions"
                     ],
@@ -129,7 +129,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
     },
     {
         "question" : "Q14: What is the issue with the following requirement:?",
-        "image" : "confusing.jpg",
+        "image" : "confusing.JPG",
         "choices" : [
                         "C3 ambiguous", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
