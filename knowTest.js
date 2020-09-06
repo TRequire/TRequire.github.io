@@ -89,49 +89,52 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q10: What is the issue with the following requirement:",
         "image" : "",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-        "correct" : "R34 Use (EACH)",
+        "correct" : "R10 Avoid Open-Ended Clauses",
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q11: In the new template, the submittals are divided to the following:",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "Action, Product Data, Drawings, Informational, Quality", 
+                        "Action, Informational, Closeout, and Maintenance Material", 
+                        "Quality, Product, Datasheet, Report, Records", 
+                        "Action, Managerial, Drawings, Informational, Quality"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "Action, Managerial, Drawings, Informational, Quality",
+        "explanation" : "[ Action, Informational, Closeout, and Maintenance Material See attached template Section 1.5, 1.6, 1.7, 1.8]",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q12: What is the issue with the following requirement: To ensure that the surcharge is correct, the final level shall be checked after completion of the first few meters and then at frequent intervals. ?",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "R3 Assign to the Correct Level of Detials", "R5 Quantify Precisely", "R6 Use Appropriate Unit", "R4 Use Defined Terms"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "R5 Quantify Precisely",
+        "explanation" : "Quantify Precisely avoid the use of any some several few. Mention the required Distance.  Review Rule 5) Quantify Precisely",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
-        "image" : "",
+        "question" : "Q13: What is the issue with the following requirement:",
+        "image" : "theymistake.jpg",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "R10 Avoid Open-Ended Clauses", "R13 Use Correct Grammar", "R19 Use a Single Sentence", "R21 Use Bracket to Combine Conditions"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "R13 Use Correct Grammar",
+        "explanation" : "The use of correct grammer Rule 13. be they structural or non-structural",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
-        "image" : "",
+        "question" : "Q14: What is the issue with the following requirement:?",
+        "image" : "confusing.jpg",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "C3 ambiguous", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "C3 ambiguous",
+        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
     },
 
   
