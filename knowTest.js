@@ -53,22 +53,22 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "Their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
-        "question" : "Q6: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q6: The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following CHARACTERISTICS OF REQUIREMENT",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "C1 NECESSARY", "C2 APPROPRIATE", "C3 UNAMBIGUOUS", "C4 COMPLETE"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "C3 UNAMBIGUOUS",
+        "explanation" : "C3 UNAMBIGUOUS: Stated such that it can be interpreted in only one way. Use standard terms defined in the tables provided in the Files tab of the Tables Channel",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "Q7: The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous, Describe the the following CHARACTERISTICS OF REQUIREMENT?",
         "image" : "",
         "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
+                        "C10 Complete", "C11 Consistent", "C12 Feasible", "C13 Comprehensible"
                     ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
+        "correct" : "C11 Consistent",
+        "explanation" : "The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous. The language used within the set of requirements is consistent",
     },
     {
         "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
