@@ -4,7 +4,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
 
  var quiz = [
     {
-        "question" : "Q1: Technical requirements define what is required in the design, they do not define how to create the design?",
+        "question" : "Q1: Technical requirements define what is required in the design, they do not define how to create the design, define which Characteristics of Requirements?",
         "image" : "",
         "choices" : [
                                 "C1 Necessary", "C2 Appropriate", "C3 Unambiguous", "C4 Complete"
@@ -32,7 +32,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "R2 Use an Active Voice", "R4 Use Defined Terms", "R14 Use Correct Spelling", "R24 Do Not Use Generalizations"
                     ],
         "correct" : "R2 Use an Active Voice",
-        "explanation" : "When an action is required, start with the verb. ...",
+        "explanation" : "When an action is required, start with the verb.",
     },
     {
         "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
@@ -44,7 +44,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q5: You should Avoid Words that words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
+        "question" : "Q5: You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
                         "requirements should be quantified precisely.", "they always can be used", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
@@ -53,16 +53,16 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
-        "question" : "Q6: The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following CHARACTERISTICS OF REQUIREMENT",
+        "question" : "Q6: The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following Characteristics of Requirement?",
         "image" : "",
         "choices" : [
                         "C1 NECESSARY", "C2 APPROPRIATE", "C3 UNAMBIGUOUS", "C4 COMPLETE"
                     ],
         "correct" : "C3 UNAMBIGUOUS",
-        "explanation" : "C3 UNAMBIGUOUS: Stated such that it can be interpreted in only one way. Use standard terms defined in the tables provided in the Files tab of the Tables Channel",
+        "explanation" : "C3 UNAMBIGUOUS: Stated such that it can be interpreted in only one way.",
     },
     {
-        "question" : "Q7: The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous, Describe the the following CHARACTERISTICS OF REQUIREMENT?",
+        "question" : "Q7: The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous, Describe the the following Characteristics of Requirement?",
         "image" : "",
         "choices" : [
                         "C10 Complete", "C11 Consistent", "C12 Feasible", "C13 Comprehensible"
@@ -89,7 +89,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "References in the new format must following the following hierarchy?",
+        "question" : "References in the new specification format template must following the following hierarchy?",
         "image" : "",
         "choices" : [
                         "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
@@ -101,7 +101,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
     },
     {
-        "question" : "Q11: In the new template, the submittals are divided to the following:",
+        "question" : "Q11: In the new specification format or template, the submittals are divided to the following:",
         "image" : "",
         "choices" : [
                         "Action, Product Data, Drawings, Informational, Quality", 
@@ -121,26 +121,8 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "correct" : "R5 Quantify Precisely",
         "explanation" : "Quantify Precisely avoid the use of any some several few. Mention the required Distance.  Review Rule 5) Quantify Precisely",
     },
-    {
-        "question" : "Q13: What is the issue with the following requirement:",
-        "image" : "",
-        "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R13 Use Correct Grammar", "R19 Use a Single Sentence", "R21 Use Bracket to Combine Conditions"
-                    ],
-        "correct" : "R13 Use Correct Grammar",
-        "explanation" : "The use of correct grammer Rule 13. be they structural or non-structural",
-    },
-    {
-        "question" : "Q14: What is the issue with the following requirement:?",
-        "image" : "",
-        "choices" : [
-                        "C3 ambiguous", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
-                    ],
-        "correct" : "C3 ambiguous",
-        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
-    },
-    {
-        "question" : "[The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+     {
+        "question" : "Q13: [The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C3 - Unambiguous. Which clause?  Each requirement in a specification amounts to a legal clause in a construction contract.",
@@ -153,7 +135,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
     },
 
  {
-        "question" : "[Example: The impact of the higher ambient temperature on ampacity will be factored in cable selection and application during system design [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+        "question" : "Q14: [Example: The impact of the higher ambient temperature on ampacity will be factored in cable selection and application during system design [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
@@ -169,7 +151,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
 
 
 {
-        "question" : "[Example: The duct for underground cables shall not be located in the main (busy lane) of the street or road and should be at least 1.5 m from the median bay.], Which characteristic or rule does this NOT violate?",
+        "question" : "Q15:[Example: The duct for underground cables shall not be located in the main (busy lane) of the street or road and should be at least 1.5 m from the median bay.], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
@@ -181,7 +163,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "C3 - Unambiguous: The word “should” is not a requirement.",
     },
 {
-        "question" : "[Example: The insulation tubing shall be generally suitable for indoor and outdoor installation, be ultra-violet and chemical resistant and with or without adhesive coating.  It shall be capable of being stored without damage at temperatures not exceeding 50°C], Which characteristic or rule does this NOT violate?",
+        "question" : "Q16:[Example: The insulation tubing shall be generally suitable for indoor and outdoor installation, be ultra-violet and chemical resistant and with or without adhesive coating.  It shall be capable of being stored without damage at temperatures not exceeding 50°C], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C3 - Unambiguous: The words “generally suitable” are not definitive.",
