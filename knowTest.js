@@ -4,7 +4,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
 
  var quiz = [
     {
-        "question" : "Q1: Technical requirements define what is required in the design, they do not define how to create the design, define which Characteristics of Requirements?",
+        "question" : "Technical requirements define what is required in the design, they do not define how to create the design, define which Characteristics of Requirements?",
         "image" : "",
         "choices" : [
                                 "C1 Necessary", "C2 Appropriate", "C3 Unambiguous", "C4 Complete"
@@ -14,7 +14,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
     },
 
     {
-        "question" : "Q2: A requirement is necessary (needed in the set of requirements) if",
+        "question" : " A requirement is necessary (needed in the set of requirements) if",
         "image" : "",
         "choices" : [
                         "A – the requirement can be removed and the remaining set will still result in the entity needs being satisfied.",
@@ -26,7 +26,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "If requirement can be removed, met by implementation of other requirements or cannot be communicated then this requirement is not necessary",
     },
     {
-        "question" : "Q3: Which rule in the following requirement is violated (The Identity of the Customer shall be confirmed)?",
+        "question" : "Which rule in the following requirement is violated (The Identity of the Customer shall be confirmed)?",
         "image" : "",
         "choices" : [
                         "R2 Use an Active Voice", "R4 Use Defined Terms", "R14 Use Correct Spelling", "R24 Do Not Use Generalizations"
@@ -35,7 +35,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "When an action is required, start with the verb.",
     },
     {
-        "question" : "Q4: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : " What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
         "image" : "",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
@@ -44,7 +44,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : "Q5: You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
+        "question" : ": You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
                         "requirements should be quantified precisely.", "they always can be used", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
@@ -53,7 +53,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "their presence in a requirement usually indicates that multiple requirements should be written. See Rule 20 for elaboration",
     },
     {
-        "question" : "Q6: The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following Characteristics of Requirement?",
+        "question" : " The requirement is stated in such a way that it can be interpreted in only one way. Describe the the following Characteristics of Requirement?",
         "image" : "",
         "choices" : [
                         "C1 NECESSARY", "C2 APPROPRIATE", "C3 UNAMBIGUOUS", "C4 COMPLETE"
@@ -62,7 +62,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "C3 UNAMBIGUOUS: Stated such that it can be interpreted in only one way.",
     },
     {
-        "question" : "Q7: The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous, Describe the the following Characteristics of Requirement?",
+        "question" : " The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous, Describe the the following Characteristics of Requirement?",
         "image" : "",
         "choices" : [
                         "C10 Complete", "C11 Consistent", "C12 Feasible", "C13 Comprehensible"
@@ -71,7 +71,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The set of requirements contains individual requirements that are unique, do not conflict with or overlap with other requirements in the set, and the units and measurement systems they use are homogeneous. The language used within the set of requirements is consistent",
     },
     {
-        "question" : "Q8:Adjectives modify nouns such as the subject of a requirement. Avoid adjectives such as “ancillary,” “relevant,” “routine,” ”common,” “generic,” and “customary because they are ",
+        "question" : "Adjectives modify nouns such as the subject of a requirement. Avoid adjectives such as “ancillary,” “relevant,” “routine,” ”common,” “generic,” and “customary because they are ",
         "image" : "",
         "choices" : [
                         "Descriptive Adjectives", "Quantitative Adjectives", "Proper Adjectives", "Vague Adjectives"
@@ -80,7 +80,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "Adjectives can lead to ambiguous, unverifiable requirements that do not reflect accurately the stakeholder expectations. See RULE 8",
     },
     {
-        "question" : "Q9: What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
+        "question" : "What is the issue with the following requirement: (The Operation Logger shall record any warning messages produced by the system)?",
         "image" : "",
         "choices" : [
                         "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
@@ -101,7 +101,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "1) KSA codes on top (e.g. SBC, HCIS) 2) Regional Codes (e.g. MARAFIQ, SEC), and 3) adopted standards in alphabetical order according to the publisher abbreviation",
     },
     {
-        "question" : "Q11: In the new specification format or template, the submittals are divided to the following:",
+        "question" : "In the new specification format or template, the submittals are divided to the following:",
         "image" : "",
         "choices" : [
                         "Action, Product Data, Drawings, Informational, Quality", 
@@ -113,7 +113,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "[ Action, Informational, Closeout, and Maintenance Material See attached template Section 1.5, 1.6, 1.7, 1.8]",
     },
     {
-        "question" : "Q12: What is the issue with the following requirement: To ensure that the surcharge is correct, the final level shall be checked after completion of the first few meters and then at frequent intervals. ?",
+        "question" : "What is the issue with the following requirement: To ensure that the surcharge is correct, the final level shall be checked after completion of the first few meters and then at frequent intervals. ?",
         "image" : "",
         "choices" : [
                         "R3 Assign to the Correct Level of Detials", "R5 Quantify Precisely", "R6 Use Appropriate Unit", "R4 Use Defined Terms"
@@ -122,7 +122,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "Quantify Precisely avoid the use of any some several few. Mention the required Distance.  Review Rule 5) Quantify Precisely",
     },
      {
-        "question" : "Q13: [The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+        "question" : "[The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C3 - Unambiguous. Which clause?  Each requirement in a specification amounts to a legal clause in a construction contract.",
@@ -130,12 +130,12 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "R2 - Use an active voice. The word “are to be” is passive.",
                         "R32 - Express Once Only.  We don’t need to say that the material must meet requirements when such is stated in the construction contract, Division 01, and the specification sheets."
                     ],
-        "correct" : "C3 ambiguous",
-        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
+        "correct" : "R1 - Use the Definitive Term (the).  A cable sheet does not define which cable sheet.",
+        "explanation" : "The requirement says “the” cable specification sheet which is compliant with R1.",
     },
 
  {
-        "question" : "Q14: [Example: The impact of the higher ambient temperature on ampacity will be factored in cable selection and application during system design [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
+        "question" : "[Example: The impact of the higher ambient temperature on ampacity will be factored in cable selection and application during system design [Jubail 26 05 13.16]], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
@@ -143,15 +143,15 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "C7 - Verifiable: Cannot prove that the impact by measurement or objective observation.",
                         "R2 - Use an active voice. “Will be” does not direct the contractor to do something."
                     ],
-        "correct" : "C3 ambiguous",
-        "explanation" : "The use of not always be practical or necessary is confusing and ambiguous",
+        "correct" : "C7 - Verifiable: Cannot prove that the impact by measurement or objective observation.",
+        "explanation" : "This requirement can be verified by examining the design.",
     },
 
 
 
 
 {
-        "question" : "Q15:[Example: The duct for underground cables shall not be located in the main (busy lane) of the street or road and should be at least 1.5 m from the median bay.], Which characteristic or rule does this NOT violate?",
+        "question" : "[Example: The duct for underground cables shall not be located in the main (busy lane) of the street or road and should be at least 1.5 m from the median bay.], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C2 - Appropriate. Design requirements belong in the Engineering Manual.",
@@ -159,11 +159,11 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "C12 - Feasible.  It is not possible to locate an underground cable as stated.",
                         "R11 - Do Not Add Unnecessary Words. The word “shall” is unnecessary in the context of requirements."
                     ],
-        "correct" : "C3 - Unambiguous: The word “should” is not a requirement.",
-        "explanation" : "C3 - Unambiguous: The word “should” is not a requirement.",
+        "correct" : "C12 - Feasible.  It is not possible to locate an underground cable as stated.",
+        "explanation" : "This requirement should be feasible depending of the configuration of the road.",
     },
 {
-        "question" : "Q16:[Example: The insulation tubing shall be generally suitable for indoor and outdoor installation, be ultra-violet and chemical resistant and with or without adhesive coating.  It shall be capable of being stored without damage at temperatures not exceeding 50°C], Which characteristic or rule does this NOT violate?",
+        "question" : "[Example: The insulation tubing shall be generally suitable for indoor and outdoor installation, be ultra-violet and chemical resistant and with or without adhesive coating.  It shall be capable of being stored without damage at temperatures not exceeding 50°C], Which characteristic or rule does this NOT violate?",
         "image" : "",
         "choices" : [
                         "C3 - Unambiguous: The words “generally suitable” are not definitive.",
@@ -171,8 +171,8 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
                         "R35 - Use Ranges for Values.  The value 50 is not a range.",
                         "R40 - Avoid Abbreviations. The degree symbol should be spelled out as in “degrees”"
                     ],
-        "correct" : "C5 – Singular. This paragraph identifies several requirements.",
-        "explanation" : "C5 – Singular. This paragraph identifies several requirements.",
+        "correct" : "R35 - Use Ranges for Values.  The value 50 is not a range.",
+        "explanation" : "The requirement says not exceeding 50 which is not a range.",
     },
 
   
