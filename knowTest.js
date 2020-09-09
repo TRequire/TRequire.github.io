@@ -44,7 +44,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
-        "question" : ": You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
+        "question" : " You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
         "image" : "",
         "choices" : [
                         "requirements should be quantified precisely.", "they always can be used", "their presence in a requirement usually indicates that multiple requirements should be written", "shall use (EACH) only"
