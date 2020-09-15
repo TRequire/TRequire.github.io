@@ -18,38 +18,9 @@
     <style>
 
 
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
 
-.left {
-  left: 0;
- 
-}
 
-.right {
-  right: 0;
-  
-}
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
 </style>
   </head>
 
@@ -57,38 +28,38 @@
 
    
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    
-<div class="split left">
-  <div class="centered">
-    <embed src="guide.pdf" type="application/pdf"   height="700px" width="700">
-  </div>
-</div>
-    
-    
-  <div class="split right">
-  <div class="">
-        <div class="left" id = "frame"
-    role = "content" >
-    <p id="frameH"></p>
-    <div class="container" id="container">
-      <div class="row">
-        <div class="col"><button type="button" class="btn btn-warning btn-lg mybutton"><a href="guide.pdf" target="_blank">Rules</a> </button></div>
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"><button type="button" class="btn btn-warning btn-lg mybutton"><a href="template.pdf" target="_blank">Template</a> </button></div>
+ <div class="container">  
+  <div class="row">
+      <div class="col " height= 100vh>
+       
+          <embed src="guide.pdf" type="application/pdf"  height=100%  width=100%>
+       
       </div>
-    
-     </div>
-   </div>
+          
+          
+        
+        <div class="col">
+              <div class="left" id = "frame"
+          role = "content" >
+          <p id="frameH"></p>
+          <div class="container" id="container">
+            <div class="row">
+              <div class="col"><button type="button" class="btn btn-warning btn-lg mybutton"><a href="guide.pdf" target="_blank">Rules</a> </button></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"><button type="button" class="btn btn-warning btn-lg mybutton"><a href="template.pdf" target="_blank">Template</a> </button></div>
+            </div>
+          
+           </div>
+         </div>
+      </div>
+      </div> 
+      </div>
 </div>
-
 
    
 
   </body>
-   <script src="knowTest.js"></script>
+    <script src="knowTest.js"></script>
   
 </html>
-
-
-<!-- <embed src="mymy.pdf" type="application/pdf"   height="700px" width="500"> -->
