@@ -298,7 +298,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
      $('#question').empty();
      $('#choice-block').empty();
      $('#submitbutton').remove();
-     $('.container').remove();
+    
      $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
      $(document.createElement('h2')).css({
          'text-align': 'center',
