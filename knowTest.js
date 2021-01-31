@@ -26,22 +26,13 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "If requirement can be removed, met by implementation of other requirements or cannot be communicated then this requirement is not necessary",
     },
     {
-        "question" : "Which rule does tis requirement violate? (The Identity of the Customer shall be confirmed.)",
+        "question" : "Which rule does this requirement violate? (The Identity of the Customer shall be confirmed.)",
         "image" : "",
         "choices" : [
                         "R2 Use an Active Voice", "R4 Use Defined Terms", "R14 Use Correct Spelling", "R24 Do Not Use Generalizations"
                     ],
         "correct" : "R2 Use an Active Voice",
         "explanation" : "When an action is required, start with the verb.",
-    },
-    {
-        "question" : " What is the issue with the following requirement? (The Operation Logger shall record any warning messages produced by the system)",
-        "image" : "",
-        "choices" : [
-                        "R10 Avoid Open-Ended Clauses", "R17 Do Not Use (And/Or)", "R19 Use a Single Sentence", "R34 Use (EACH)"
-                    ],
-        "correct" : "R34 Use (EACH)",
-        "explanation" : "The use of (all), (both), or (any) is confusing because it is hard to distinguish applicability to the whole set or to each element of the set. The word (each) is more explicit",
     },
     {
         "question" : " You should Avoid words that join clauses, such as  (and) ,(or) ,(then) ,(unless) ,(but) ,(/) ,(as well as) ,(but also) ,(however) ,(whether) ,(meanwhile) ,(whereas) ,(on the other hand) and  ,(otherwise) because ",
@@ -122,7 +113,7 @@ var quiztitle = "Technical Requirement Writing Knowledge Test";
         "explanation" : "Quantify Precisely avoid the use of any some several few. Mention the required Distance.  Review Rule 5) Quantify Precisely",
     },
      {
-        "question" : "Which characteristic or rule does this NOT violate? [The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16])",
+        "question" : "Which characteristic or rule does this NOT violate? (The insulated cables are to be furnished in accordance with the cable specification sheets covered under this clause, and the other codes and standards mentioned therein [Jubail 26 05 13.16])",
       "image" : "",
         "choices" : [
                         "C3 - Unambiguous. Which clause?  Each requirement in a specification amounts to a legal clause in a construction contract.",
